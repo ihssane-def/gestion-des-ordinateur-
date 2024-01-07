@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modif_supp</class>
+ <widget class="QMainWindow" name="modif_supp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1146</width>
+    <height>230</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="placeholderText">
+     <string>processeur Ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="placeholderText">
+     <string>Couleur d'ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <item>
+     <property name="text">
+      <string comment="lkj" extracomment="kl">En service </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hors service</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En maintenance</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En cours de mise à jour </string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>110</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Département des Technologies de l'Information</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Ressources Humaines </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département de la Sécurité Informatique </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Finances</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Achats</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département de la Formation</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Département des Services aux Utilisateurs</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_modif">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>30</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Modifier un ordinateur</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>391</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="placeholderText">
+     <string>ID Ordinateur :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_supp">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>80</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Supprimer un odinateur</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
